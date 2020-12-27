@@ -1,14 +1,14 @@
 These are _my_ dotfiles. They are tailored to bash and osx. Please review before using them.
 
 # Influences
-Below is a list of repos this configuration steals from
+Below is a list of repos this configuration steals from.
 * [paulirish](https://github.com/paulirish/dotfiles)
 * [mathiasbynens](https://github.com/mathiasbynens/dotfiles)
 
 # Using
 I am using the [StreakyCobra approach](https://medium.com/toutsbrasil/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b) for putting my dotfiles under version control.
 
-There are scripts that can help setting up a new machine. You will need to have git and brew installed before running these
+There are scripts that can help setting up a new machine. You will need to have git and brew installed before running these.
 ```
 # install and configure alacritty
 # ./.bootstrap/install-alacritty.sh
