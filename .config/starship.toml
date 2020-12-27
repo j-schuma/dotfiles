@@ -1,0 +1,9 @@
+# enbale k8s module
+[kubernetes]
+format = '[☸ $context](dimmed green) '
+disabled = false
+[kubernetes.context_aliases]
+"k8s-mc-dev" = "dev"
+"k8s-mc-staging" = "staging"
+"k8s-mc-demo" = "demo"
+"k8s-mc-prod" = "prod"

@@ -1,0 +1,2 @@
+# load starship prompt https://github.com/starship/starship
+eval "$(starship init bash)"
