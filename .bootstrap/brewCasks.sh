@@ -11,7 +11,6 @@ echo "Disbaling brew auto update temporarily."
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Install casks
-brew install --cask alacritty
 brew install --cask balenaetcher
 brew install --cask calibre
 brew install --cask coconutbattery

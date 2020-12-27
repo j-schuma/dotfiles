@@ -79,6 +79,7 @@ brew install bat
 brew install autojump
 brew install fasd
 brew install fzf
+brew install git-delta
 brew install htop
 brew install jq
 brew install jwt-cli
