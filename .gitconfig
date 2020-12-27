@@ -205,6 +205,3 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-[user]
-	name = Jan Schumacher
-	email = jan.schumacher@maibornwolff.de
