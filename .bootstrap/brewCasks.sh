@@ -14,6 +14,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 brew install --cask balenaetcher
 brew install --cask calibre
 brew install --cask coconutbattery
+brew install --cask cryptomator
 brew install --cask drawio
 brew install --cask firefox
 brew install --cask google-backup-and-sync

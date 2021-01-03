@@ -75,21 +75,25 @@ brew install vbindiff
 brew install zopfli
 
 # Install fancy shell tools
-brew install bat
-brew install autojump
-brew install fasd
+brew install bat        # a cat alternative  
+brew install bottom     # pretty resource monitor
+brew install bmon       # a bandwith monitor
+brew install duf        # nice disk ussage
+brew install fd         # simpler find alternative
 brew install fzf
-brew install git-delta
+brew install git-delta  # pretty git output
 brew install htop
 brew install jq
 brew install jwt-cli
-brew install midnight-commander
-brew install ranger
+brew install lsd        # pretty ls alternative
+brew install ripgrep    # fast and pretty grep
+brew install ranger     # cli file manager
+brew install tealdeer   # example focussed man pages  
 brew install tmux
 brew install watch
-brew install watson 
-brew install xz
-brew install lsd
+brew install watson     # cli time tracker
+brew install xz         # compressing stuff
+
 
 # Install alacritty/lsd fonts
 brew tap homebrew/cask-fonts

@@ -67,6 +67,7 @@ alias v="vim"
 alias ungz="gunzip -k"
 alias k="kubectl"
 alias wa="watson"
+alias btm="btm --color gruvbox"
 
 # File size
 alias fs="stat -f \"%z bytes\""
