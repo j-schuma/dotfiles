@@ -11,7 +11,7 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-source ~/proj/github/fzf-tab-completion/bash/fzf-bash-completion.sh
+source ~/.shell_tools/fzf-tab-completion/bash/fzf-bash-completion.sh
 bind -x '"\t": fzf_bash_completion'
 
 # Case-insensitive globbing (used in pathname expansion)
@@ -31,7 +31,7 @@ for option in autocd globstar; do
 done;
 
 # init enhancd - see https://github.com/b4b4r07/enhancd
-source  ~/proj/github/enhancd/init.sh
+source  ~/.shell_tools/enhancd/init.sh
 
 # disable XON/XOFF so we can use Ctrl-S for forward search in bash history
 stty -ixon

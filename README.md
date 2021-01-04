@@ -10,8 +10,11 @@ I am using the [StreakyCobra approach](https://medium.com/toutsbrasil/how-to-man
 
 There are scripts that can help setting up a new machine. You will need to have git and brew installed before running these.
 ```
-# install and configure alacritty
+# install and configure alacritty.
 # ./.bootstrap/install-alacritty.sh
+
+# install some tooling from github that is not available via brew.
+# ./.bootstrap/github_tooling.sh
 
 # install brew packages. double check if all are required.
 # ./.bootstrap/brew.sh
@@ -26,9 +29,11 @@ There are scripts that can help setting up a new machine. You will need to have 
 # Tools
 A list of fancy command line tools I am currently using.
 * [alacritty, a _fast_ terminal emulator](https://github.com/alacritty/alacritty)
-* [bat, a cat clone with wings](https://github.com/sharkdp/bat)
+* [bat, a 'cat' clone with wings](https://github.com/sharkdp/bat)
 * [delta, a git and diff viewer](https://github.com/dandavison/delta)
-* [lsd, a colorful ls alternative](https://github.com/Peltoche/lsd)
+* [enhancd, a fuzzy 'cd' alternative based on fzf](https://github.com/b4b4r07/enhancd)
+* [fzf-tab-completion, fuzzy completion with fzf in bash](https://github.com/lincheney/fzf-tab-completion) 
+* [lsd, a colorful 'ls' alternative](https://github.com/Peltoche/lsd)
 * [ranger, a vim inspired file manager](https://github.com/ranger/ranger)
 * [starship, an intuitive and fast prompt](https://starship.rs/)
 

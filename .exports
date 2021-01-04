@@ -38,3 +38,6 @@ export BASH_SILENCE_DEPRECATION_WARNING=1;
 
 # use ripgrep for fzf
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
+
+# Disable enhancd on 'cd'
+export ENHANCD_DISABLE_HOME=1
