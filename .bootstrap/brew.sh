@@ -39,6 +39,10 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/bash";
 fi;
 
+# Install some custom completions
+kubectl completion bash >/usr/local/etc/bash_completion.d/kubectl
+sudo curl -L https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /usr/local/etc/bash_completion.d/docker.sh
+sudo curl -L https://raw.githubusercontent.com/docker/compose/master/contrib/completion/bash/docker-compose -o /usr/local/etc/bash_completion.d/docker-compose
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
@@ -128,8 +132,6 @@ brew install k9s
 brew install kns
 brew install kubectx
 brew install kubernetes-cli
-# generate auto complete for kubectl
-kubectl completion bash >/usr/local/etc/bash_completion.d/kubectl
 brew install stern
 
 # Install azure tooling
