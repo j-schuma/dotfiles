@@ -26,6 +26,7 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
+brew install gawk
 # Install a modern version of Bash.
 brew install bash
 brew install bash-completion@2
