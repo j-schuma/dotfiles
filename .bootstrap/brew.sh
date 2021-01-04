@@ -112,6 +112,15 @@ brew install openjdk@11
 brew install protobuf
 brew install prototool
 
+# set global python default
+brew install pyenv
+pyenv install --skip-existing 3.9.0
+pyenv global 3.9.0
+
+# intall powerline and k8s segment via pip
+pip3 install powerline-status
+pip3 install https://github.com/gkze/powerk8s/archive/master.tar.gz 
+
 # Install k8s tooling
 brew install helm
 brew install helmfile
