@@ -1,5 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+# Add the gnu version of sed to path
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -8,6 +10,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+source ~/proj/github/fzf-tab-completion/bash/fzf-bash-completion.sh
+bind -x '"\t": fzf_bash_completion'
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
@@ -41,7 +46,7 @@ elif [ -f /etc/bash_completion ]; then
 fi;
 
 # enable fzf
-#[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPS="--extended"
 
 # Enable tab completion for `g` by marking it as an alias for `git`
