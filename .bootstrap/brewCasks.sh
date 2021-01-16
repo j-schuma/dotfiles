@@ -23,6 +23,7 @@ brew install --cask intellij-idea
 brew install --cask iterm2
 brew install --cask java
 brew install --cask java11
+brew install --cask signal
 brew install --cask transmission
 brew install --cask visual-studio-code
 brew install --cask vlc
