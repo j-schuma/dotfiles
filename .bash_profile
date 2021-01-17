@@ -1,4 +1,4 @@
-# Add `~/bin` to the `$PATH`
+  # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 # Add the gnu version of sed to path
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
@@ -87,5 +87,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# initialize jenv (for setting java version)
-eval "$(jenv init -)"
+# initialize jenv (for setting java version) https://github.com/jenv/jenv/issues/148
+# eval "$(jenv init - --no-rehash)"
