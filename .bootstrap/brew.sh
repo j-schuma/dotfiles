@@ -109,17 +109,14 @@ brew install cookiecutter
 brew install go
 brew install jenv
 brew install mongodb-community-shell
-brew install mongodb-community@3.6
 brew install node
-brew install openjdk
-brew install openjdk@11
 brew install protobuf
 brew install prototool
 
 # set global python default
-brew install pyenv
-pyenv install --skip-existing 3.9.0
-pyenv global 3.9.0
+# brew install pyenv
+# pyenv install --skip-existing 3.9.0
+# pyenv global 3.9.0
 
 # intall powerline and k8s segment via pip
 pip3 install powerline-status
@@ -136,7 +133,7 @@ brew install stern
 
 # Install azure tooling
 brew install azure-cli
-brew install azure-functions-core-tools@3
+brew install azure-functions-core-tools
 
 # Install net tools
 brew install mitmproxy 

@@ -69,6 +69,10 @@ alias k="kubectl"
 alias wa="watson"
 alias btm="btm --color gruvbox"
 
+# pomodoro aliases
+alias p="pomodoro"
+alias pw="watch pomodoro status"
+
 # File size
 alias fs="stat -f \"%z bytes\""
 
@@ -80,3 +84,6 @@ alias emptytrash=" \
     rm -rv \"/Users/paulirish/Library/Application Support/stremio/Cache\";  \
     rm -rv \"/Users/paulirish/Library/Application Support/stremio/stremio-cache\" \
 "
+
+# sane GNU coreutils
+alias base64=gbase64 

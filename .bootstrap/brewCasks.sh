@@ -11,19 +11,21 @@ echo "Disbaling brew auto update temporarily."
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Install casks
+brew install --cask alacritty
 brew install --cask balenaetcher
 brew install --cask calibre
 brew install --cask coconutbattery
 brew install --cask cryptomator
 brew install --cask drawio
 brew install --cask firefox
-brew install --cask google-backup-and-sync
+brew install --cask font-fantasque-sans-mono
+brew install --cask font-hack-nerd-font 
+brew install --cask font-inconsolata 
 brew install --cask google-chrome
-brew install --cask intellij-idea
-brew install --cask iterm2
-brew install --cask java
-brew install --cask java11
-brew install --cask signal
+brew install --cask grandperspective 
+brew install --cask jetbrains-toolbox
+brew install --cask keepassxc
+brew install --cask postman
 brew install --cask transmission
 brew install --cask visual-studio-code
 brew install --cask vlc
