@@ -1,3 +1,4 @@
+<<comment
 #!/usr/bin/env bash
 
 # ~/.macos — https://mths.be/macos
@@ -822,3 +823,4 @@ for app in "Activity Monitor" \
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+comment
