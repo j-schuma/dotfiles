@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Install some tooling that is only available through git
+# should be installed after all the brew tools have been installed
 mkdir -p $HOME/.shell_tools
 
 # Install enhancd
@@ -10,3 +11,9 @@ mkdir -p $HOME/.shell_tools
 # Install fzf-tab-completion
 [ -d $HOME/.shell_tools/fzf-tab-completion ] || git clone https://github.com/lincheney/fzf-tab-completion $HOME/.shell_tools/fzf-tab-completion
 (cd $HOME/.shell_tools/fzf-tab-completion; git pull https://github.com/lincheney/fzf-tab-completion)
+
+# this is not the best place for this ;)
+# installs completion and other things for fzf
+# we assume this was previously installed with brew
+$(brew --prefix)/opt/fzf/install
+

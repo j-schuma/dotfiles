@@ -25,6 +25,7 @@ brew install --cask google-chrome
 brew install --cask grandperspective 
 brew install --cask jetbrains-toolbox
 brew install --cask keepassxc
+brew install --cask nordvpn
 brew install --cask postman
 brew install --cask transmission
 brew install --cask visual-studio-code

@@ -1,7 +1,9 @@
-  # Add `~/bin` to the `$PATH`
+# Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 # Add the gnu version of sed to path
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+# add homebrew to path
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

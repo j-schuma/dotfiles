@@ -29,7 +29,7 @@ main () {
 # Ligature for operator mono: https://github.com/kiliman/operator-mono-lig
 install_alacritty() {
   if !(command_exists alacritty); then
-    doo brew cask install alacritty
+    doo brew install --cask alacritty
 
     # clone
     doo git clone https://github.com/alacritty/alacritty.git
