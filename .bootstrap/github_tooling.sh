@@ -13,7 +13,12 @@ mkdir -p $HOME/.shell_tools
 (cd $HOME/.shell_tools/fzf-tab-completion; git pull https://github.com/lincheney/fzf-tab-completion)
 
 # this is not the best place for this ;)
+# to some configuration that should be executed once
+
 # installs completion and other things for fzf
 # we assume this was previously installed with brew
 $(brew --prefix)/opt/fzf/install
+
+# change shell to bash from zsh
+chsh -s /opt/homebrew/bin/bash
 
